@@ -1,4 +1,4 @@
-﻿Log file open, 02/05/19 22:21:47
+﻿Log file open, 02/05/19 20:27:37
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Akenomia
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.613232
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.295393
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -31,7 +31,6 @@ LogPluginManager: Mounting plugin XCodeSourceCodeAccess
 LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin CryptoKeys
 LogPluginManager: Mounting plugin DataValidation
-LogPluginManager: Mounting plugin EditorScriptingUtilities
 LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin GameplayTagsEditor
 LogPluginManager: Mounting plugin MacGraphicsSwitching
@@ -95,13 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogPluginManager: Mounting plugin DatasmithCADImporter
-LogPluginManager: Mounting plugin DatasmithFBXImporter
-LogPluginManager: Mounting plugin DatasmithImporter
-LogPluginManager: Mounting plugin MDLImporter
-LogPluginManager: Mounting plugin StaticMeshEditorExtension
-LogPluginManager: Mounting plugin VariantManager
-LogStreaming: Display: Took  0.122s to configure plugins.
+LogStreaming: Display: Took  0.039s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -125,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
-LogInit: Command Line:  /Game/Akenomia/Level/02_Save -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
-LogInit: Base Directory: E:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Command Line:  /Game/Akenomia/Level/02_Save -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -MultiprocessSaveConfig -windowed
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -156,503 +149,254 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.017s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Engine.ini]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:1024]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:1]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.02.05-21.21.48:314][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:2]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:2]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.EarlyZPassMovable:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[vr.MonoscopicFarField:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Engine.ini]
-[2019.02.05-21.21.48:315][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Engine.ini]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Engine.ini]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.02.05-21.21.48:315][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.02.05-21.21.48:316][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.02.05-21.21.48:316][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.02.05-21.21.48:316][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.02.05-21.21.48:316][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.02.05-21.21.48:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Engine.ini]
-[2019.02.05-21.21.48:316][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Engine.ini]
-[2019.02.05-21.21.48:321][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.05-21.21.48:321][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.05-21.21.48:322][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.05-21.21.48:322][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.05-21.21.48:322][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.05-21.21.48:345][  0]LogHAL: Display: Platform has ~ 12 GB [12833935360 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.05-21.21.48:345][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.02.05-21.21.48:346][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Scalability.ini]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.05-21.21.48:346][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.02.05-21.21.48:351][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.02.05-21.21.48:351][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Users/user/Documents/01-Projects_UE/Akenomia/Saved/Config/Windows/Engine.ini]
-[2019.02.05-21.21.48:361][  0]LogInit: Computer: MANZAVISION05
-[2019.02.05-21.21.48:361][  0]LogInit: User: user
-[2019.02.05-21.21.48:361][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.05-21.21.48:361][  0]LogInit: High frequency timer resolution =3.328125 MHz
-[2019.02.05-21.21.48:362][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
-[2019.02.05-21.21.48:362][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.05-21.21.48:362][  0]LogMemory: Process Physical Memory: 104.22 MB used, 104.22 MB peak
-[2019.02.05-21.21.48:362][  0]LogMemory: Process Virtual Memory: 91.95 MB used, 91.95 MB peak
-[2019.02.05-21.21.48:362][  0]LogMemory: Physical Memory: 10251.89 MB used,  1987.50 MB free, 12239.39 MB total
-[2019.02.05-21.21.48:362][  0]LogMemory: Virtual Memory: 4649.39 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2019.02.05-21.21.48:474][  0]LogInit: Using OS detected language (fr-FR).
-[2019.02.05-21.21.48:474][  0]LogInit: Using OS detected locale (fr-FR).
-[2019.02.05-21.21.48:475][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2019.02.05-21.21.48:532][  0]LogStreaming: Display: Took  0.059s to InitEngineTextLocalization.
-[2019.02.05-21.21.48:640][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.05-21.21.48:640][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.05-21.21.48:704][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2019.02.05-21.21.48:704][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.05-21.21.48:761][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.02.05-21.21.48:761][  0]LogD3D11RHI:       4058/0/6119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.02.05-21.21.48:764][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.05-21.21.48:764][  0]LogD3D11RHI:       0/0/6119 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.05-21.21.48:764][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.05-21.21.48:772][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.05-21.21.48:772][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.05-21.21.48:772][  0]LogWindows: EnumDisplayDevices:
-[2019.02.05-21.21.48:772][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.02.05-21.21.48:772][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2019.02.05-21.21.48:772][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.02.05-21.21.48:772][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.02.05-21.21.48:772][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.05-21.21.48:772][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.02.05-21.21.48:772][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2019.02.05-21.21.48:773][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2019.02.05-21.21.48:773][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
-[2019.02.05-21.21.48:800][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.05-21.21.48:816][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.02.05-21.21.49:592][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.05-21.21.49:614][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.05-21.21.49:631][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.05-21.21.49:644][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.05-21.21.49:644][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.05-21.21.49:897][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/user/Documents/01-Projects_UE/Akenomia/Intermediate/Shaders/WorkingDirectory/9180/).
-[2019.02.05-21.21.49:898][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/6BF5B14542CAF4EE5B6513822E1FB079/'.
-[2019.02.05-21.21.49:906][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.05-21.21.49:906][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.05-21.21.49:906][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.05-21.21.52:273][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.05-21.21.52:509][  0]LogDerivedDataCache: Loaded boot cache 0.23s 86MB C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.05-21.21.52:509][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.02.05-21.21.52:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Documents/01-Projects_UE/Akenomia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.05-21.21.52:509][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.05-21.21.52:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Documents/01-Projects_UE/Akenomia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.05-21.21.52:509][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.05-21.21.52:531][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.05-21.21.52:535][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2019.02.05-21.21.52:547][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.05-21.21.52:547][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.05-21.21.52:547][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.05-21.21.52:574][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.05-21.21.52:594][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.05-21.21.52:613][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.05-21.21.53:027][  0]LogInit: Using OS detected language (fr-FR).
-[2019.02.05-21.21.53:027][  0]LogInit: Using OS detected locale (fr-FR).
-[2019.02.05-21.21.53:027][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2019.02.05-21.21.53:027][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
-[2019.02.05-21.21.53:028][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.02.05-21.21.53:028][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.02.05-21.21.54:008][  0]LogStreaming: Display: Took  0.980s to InitGameTextLocalization.
-[2019.02.05-21.21.54:039][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
-[2019.02.05-21.21.54:282][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 1 prioritized culture(s) in 0.018502 seconds
-[2019.02.05-21.21.54:380][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.05-21.21.54:577][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.05-21.21.54:614][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.05-21.21.54:614][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.05-21.21.54:614][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.05-21.21.54:614][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.05-21.21.54:703][  0]LogNetVersion: Akenomia 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2219032704)
-[2019.02.05-21.21.57:439][  0]LogMoviePlayer: Initializing movie player
-[2019.02.05-21.21.57:713][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.05-21.21.57:736][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.05-21.21.57:906][  0]SourceControl: Source control is disabled
-[2019.02.05-21.21.57:906][  0]SourceControl: Source control is disabled
-[2019.02.05-21.21.57:919][  0]SourceControl: Source control is disabled
-[2019.02.05-21.21.58:276][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.05-21.21.58:395][  0]LogOcInput: OculusInput pre-init called
-[2019.02.05-21.21.58:413][  0]LogUObjectArray: 43226 objects as part of root set at end of initial load.
-[2019.02.05-21.21.58:413][  0]LogUObjectAllocator: 7590224 out of 0 bytes used by permanent object pool.
-[2019.02.05-21.21.58:413][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.05-21.21.58:586][  0]LogEngine: Initializing Engine...
-[2019.02.05-21.21.58:607][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2019.02.05-21.21.58:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.05-21.21.58:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.05-21.21.58:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.05-21.21.58:620][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.05-21.21.58:796][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.05-21.21.58:814][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.05-21.21.58:840][  0]LogInit: FAudioDevice initialized.
-[2019.02.05-21.21.58:860][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.05-21.21.58:867][  0]LogInit: Texture streaming: Enabled
-[2019.02.05-21.21.59:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.05-21.21.59:205][  0]LogInit: Display: Game Engine Initialized.
-[2019.02.05-21.21.59:205][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.05-21.21.59:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.05-21.21.59:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.05-21.21.59:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.05-21.21.59:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.05-21.21.59:258][  0]LogInit: Display: Starting Game.
-[2019.02.05-21.21.59:267][  0]LogNet: Browse: /Game/Akenomia/Level/02_Save?Name=Player
-[2019.02.05-21.21.59:271][  0]LogLoad: LoadMap: /Game/Akenomia/Level/02_Save?Name=Player
-[2019.02.05-21.21.59:597][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black'
-[2019.02.05-21.21.59:597][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black.Plastic_Rought_Black Referenced by Balconny_Structure
-[2019.02.05-21.21.59:597][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black'
-[2019.02.05-21.21.59:598][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black' while loading NULL.
-[2019.02.05-21.21.59:598][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black.Plastic_Rought_Black Referenced by Balconny_Structure
-[2019.02.05-21.21.59:598][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black' while loading NULL.
-[2019.02.05-21.21.59:598][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black'
-[2019.02.05-21.21.59:598][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black.Plastic_Rought_Black Referenced by Balconny_Structure
-[2019.02.05-21.21.59:598][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black'
-[2019.02.05-21.21.59:598][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black' while loading NULL.
-[2019.02.05-21.21.59:598][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black.Plastic_Rought_Black Referenced by Balconny_Structure
-[2019.02.05-21.21.59:598][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Plastic_Rought_Black' while loading NULL.
-[2019.02.05-21.21.59:627][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2'
-[2019.02.05-21.21.59:627][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows2.pillows2 Referenced by Bed
-[2019.02.05-21.21.59:627][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2'
-[2019.02.05-21.21.59:627][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2' while loading NULL.
-[2019.02.05-21.21.59:627][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows2.pillows2 Referenced by Bed
-[2019.02.05-21.21.59:627][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2' while loading NULL.
-[2019.02.05-21.21.59:627][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1'
-[2019.02.05-21.21.59:627][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Material__1.Material__1 Referenced by Bed
-[2019.02.05-21.21.59:627][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1'
-[2019.02.05-21.21.59:627][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1' while loading NULL.
-[2019.02.05-21.21.59:627][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Material__1.Material__1 Referenced by Bed
-[2019.02.05-21.21.59:627][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1' while loading NULL.
-[2019.02.05-21.21.59:627][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows'
-[2019.02.05-21.21.59:627][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows.pillows Referenced by Bed
-[2019.02.05-21.21.59:628][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows'
-[2019.02.05-21.21.59:628][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows' while loading NULL.
-[2019.02.05-21.21.59:628][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows.pillows Referenced by Bed
-[2019.02.05-21.21.59:628][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows' while loading NULL.
-[2019.02.05-21.21.59:628][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket'
-[2019.02.05-21.21.59:628][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket.blanket Referenced by Bed
-[2019.02.05-21.21.59:628][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket'
-[2019.02.05-21.21.59:628][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket' while loading NULL.
-[2019.02.05-21.21.59:628][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket.blanket Referenced by Bed
-[2019.02.05-21.21.59:628][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket' while loading NULL.
-[2019.02.05-21.21.59:628][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2'
-[2019.02.05-21.21.59:628][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket2.blanket2 Referenced by Bed
-[2019.02.05-21.21.59:628][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2'
-[2019.02.05-21.21.59:628][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2' while loading NULL.
-[2019.02.05-21.21.59:628][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket2.blanket2 Referenced by Bed
-[2019.02.05-21.21.59:628][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2' while loading NULL.
-[2019.02.05-21.21.59:628][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2'
-[2019.02.05-21.21.59:628][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows2.pillows2 Referenced by Bed
-[2019.02.05-21.21.59:628][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2'
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows2.pillows2 Referenced by Bed
-[2019.02.05-21.21.59:629][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows2' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1'
-[2019.02.05-21.21.59:629][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Material__1.Material__1 Referenced by Bed
-[2019.02.05-21.21.59:629][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1'
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/Material__1.Material__1 Referenced by Bed
-[2019.02.05-21.21.59:629][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/Material__1' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows'
-[2019.02.05-21.21.59:629][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows.pillows Referenced by Bed
-[2019.02.05-21.21.59:629][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows'
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/pillows.pillows Referenced by Bed
-[2019.02.05-21.21.59:629][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/pillows' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket'
-[2019.02.05-21.21.59:629][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket.blanket Referenced by Bed
-[2019.02.05-21.21.59:629][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket'
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket.blanket Referenced by Bed
-[2019.02.05-21.21.59:629][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket' while loading NULL.
-[2019.02.05-21.21.59:629][  0]LogLinker: Warning: Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2'
-[2019.02.05-21.21.59:630][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket2.blanket2 Referenced by Bed
-[2019.02.05-21.21.59:630][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2': Can't find file '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2'
-[2019.02.05-21.21.59:630][  0]LogLinker: Warning: Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2' while loading NULL.
-[2019.02.05-21.21.59:630][  0]LoadErrors: Failed to load /Game/Akenomia/Assets/TestSceneExport/Materials/blanket2.blanket2 Referenced by Bed
-[2019.02.05-21.21.59:630][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2': Can't find file for asset '/Game/Akenomia/Assets/TestSceneExport/Materials/blanket2' while loading NULL.
-[2019.02.05-21.22.05:803][  0]LogMaterial: Display: Missing cached shader map for material Concrete_White, compiling. 
-[2019.02.05-21.22.05:804][  0]LogMaterial: Warning: E:\Users\user\Documents\01-Projects_UE\Akenomia\Content\Akenomia\Assets\Loft\Concrete_White.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2019.02.05-21.22.05:804][  0]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Akenomia/Assets/Loft/Bricks_RedBrown_roughness.Bricks_RedBrown_roughness
-[2019.02.05-21.22.05:859][  0]LogMaterial: Display: Missing cached shader map for material Brick_Red, compiling. 
-[2019.02.05-21.22.05:860][  0]LogMaterial: Warning: E:\Users\user\Documents\01-Projects_UE\Akenomia\Content\Akenomia\Assets\Loft\Brick_Red.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2019.02.05-21.22.05:860][  0]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Akenomia/Assets/Loft/Bricks_RedBrown_roughness.Bricks_RedBrown_roughness
-[2019.02.05-21.22.06:053][  0]LogMaterial: Display: Missing cached shader map for material Wood_Brown, compiling. 
-[2019.02.05-21.22.06:054][  0]LogMaterial: Warning: E:\Users\user\Documents\01-Projects_UE\Akenomia\Content\Akenomia\Assets\Materials_Temp\Wood_Brown.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2019.02.05-21.22.06:054][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2019.02.05-21.22.06:771][  0]LogMaterial: Display: Missing cached shader map for material Wood_Beech_Mid_Brown, compiling. 
-[2019.02.05-21.22.06:771][  0]LogMaterial: Warning: E:\Users\user\Documents\01-Projects_UE\Akenomia\Content\Akenomia\Assets\TestImport02\zz-CuisinePlanDeTravail\Wood_Beech_Mid_Brown.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2019.02.05-21.22.06:771][  0]LogMaterial: 	(Node TextureSample) TextureSample> Sampler type is Color, should be Linear Color for /Game/Akenomia/Assets/TestImport02/zz-CuisinePlanDeTravail/Wood_Beech_Mid_Brown_Rough.Wood_Beech_Mid_Brown_Rough
-[2019.02.05-21.22.07:097][  0]LogAIModule: Creating AISystem for world 02_Save
-[2019.02.05-21.22.07:098][  0]LogLoad: Game class is 'GameModeBase'
-[2019.02.05-21.22.07:118][  0]LogWorld: Bringing World /Game/Akenomia/Level/02_Save.02_Save up for play (max tick rate 0) at 2019.02.05-22.22.07
-[2019.02.05-21.22.07:118][  0]LogWorld: Bringing up level for play took: 0.007739
-[2019.02.05-21.22.07:119][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.02.05-21.22.07:188][  0]LogLoad: Took 7.917426 seconds to LoadMap(/Game/Akenomia/Level/02_Save)
-[2019.02.05-21.22.07:401][  0]LogRenderer: Reallocating scene render targets to support 640x360 Format 10 NumSamples 1 (Frame:1).
-[2019.02.05-21.22.07:401][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 26 NumSamples 1 (Frame:1).
-[2019.02.05-21.22.07:401][  0]LogLoad: (Engine Initialization) Total time: 35.35 seconds
-[2019.02.05-21.22.07:401][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.05-21.22.07:422][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Matthis/Akenomia/Saved/Config/Windows/Engine.ini]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:1024]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:2]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Matthis/Akenomia/Saved/Config/Windows/Engine.ini]
+[2019.02.05-19.27.38:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Matthis/Akenomia/Saved/Config/Windows/Engine.ini]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Matthis/Akenomia/Saved/Config/Windows/Engine.ini]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.05-19.27.38:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Matthis/Akenomia/Saved/Config/Windows/Engine.ini]
+[2019.02.05-19.27.38:161][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Matthis/Akenomia/Saved/Config/Windows/Engine.ini]
+[2019.02.05-19.27.38:165][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.02.05-19.27.38:165][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.05-19.27.38:166][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.05-19.27.38:166][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.05-19.27.38:166][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.05-19.27.38:169][  0]LogHAL: Display: Platform has ~ 16 GB [17116614656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.05-19.27.38:169][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.05-19.27.38:169][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.05-19.27.38:169][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Matthis/Akenomia/Saved/Config/Windows/Scalability.ini]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.05-19.27.38:170][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.05-19.27.38:170][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Matthis/Akenomia/Saved/Config/Windows/Engine.ini]
+[2019.02.05-19.27.38:170][  0]LogInit: Computer: DESKTOP-T2CA7LO
+[2019.02.05-19.27.38:170][  0]LogInit: User: Manzavision011
+[2019.02.05-19.27.38:170][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.02.05-19.27.38:170][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.02.05-19.27.38:170][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.05-19.27.38:170][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.05-19.27.38:170][  0]LogMemory: Process Physical Memory: 103.75 MB used, 103.75 MB peak
+[2019.02.05-19.27.38:170][  0]LogMemory: Process Virtual Memory: 93.61 MB used, 93.61 MB peak
+[2019.02.05-19.27.38:170][  0]LogMemory: Physical Memory: 6082.25 MB used,  10241.42 MB free, 16323.68 MB total
+[2019.02.05-19.27.38:170][  0]LogMemory: Virtual Memory: 4641.74 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.02.05-19.27.38:184][  0]LogInit: Using OS detected language (fr-FR).
+[2019.02.05-19.27.38:184][  0]LogInit: Using OS detected locale (fr-FR).
+[2019.02.05-19.27.38:185][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2019.02.05-19.27.38:187][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
+[2019.02.05-19.27.38:208][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.05-19.27.38:208][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.05-19.27.39:289][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.05-19.27.39:333][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2019.02.05-19.27.39:333][  0]LogD3D11RHI:       8031/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.05-19.27.39:335][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.05-19.27.39:335][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.05-19.27.39:335][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.05-19.27.39:339][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.05-19.27.39:339][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.05-19.27.39:339][  0]LogWindows: EnumDisplayDevices:
+[2019.02.05-19.27.39:339][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2019.02.05-19.27.39:339][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2019.02.05-19.27.39:340][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.02.05-19.27.39:341][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.02.05-19.27.39:341][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.05-19.27.39:341][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2019.02.05-19.27.39:341][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2019.02.05-19.27.39:341][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2019.02.05-19.27.39:341][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2019.02.05-19.27.39:371][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.05-19.27.39:386][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
